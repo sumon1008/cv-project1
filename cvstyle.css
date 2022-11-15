@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1000px;
+    background-color:rgba(180, 236, 236, 0.842);
+    margin: 0 auto;
+    padding: 20px;
+}
+/*header section start*/
+header{
+
+}
+.profil-image{
+    width: 100px;
+    height: 120px;
+    border:solid 3px white;
+    border-radius: 50%;
+    float: left;
+ 
+}
+.header-bio{
+    
+    padding: 30px;
+    float: left;
+}
+h1,h2,h3,h4,h5,h6{
+    color:rgb(5, 122, 111);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a{
+   text-decoration: none;
+   color:rgb(5, 122, 111);
+   font-weight: bold;
+}
+.header-contact a:hover{
+    color:tomato;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    width: 100%;
+    border: solid 3px black;
+    border-bottom: none;
+    margin:20px auto;
+    border-bottom: none;
+    
+}
+/*header section end*/
+
+/*main section1 start*/
+.clear-div2{
+    clear: both;
+
+}
+.hr2{
+    border: solid 1px black;
+    margin-top: 10px;
+    border-bottom: none;
+    width: 100%;
+}
+.personal-info{
+    width: 70%;
+    float: left;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-bottom: 10px;
+
+}
+.personal-info-heading{
+    width: 30%;
+    float: left;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+/*main section1 end*/
+   
+
+/*main section2 start*/
+
+
+.left-side{ 
+    width: 70%;
+    float: left;
+    margin-bottom: 10px;
+}
+.right-side{
+    width: 30%;
+    float: left;
+
+}
+/*main section2 end*/
+
+/*main section3 start*/
+
+.div-right1{
+    float: right;
+    width: 70%;
+    margin-bottom: 5px;
+}
+.div-left1{
+    float: left;
+    width: 30%;
+}
+/*main section3 end*/
+
+/*main section4 start*/
+.edu-div1{
+    width:30%;
+    float: left;
+}
+.edu-div2{
+    width: 70%;
+    float: right;
+}
+.edu-div2 .div1{
+    width: 50%;
+    float: left;
+}
+.edu-div2 .div2{
+    width: 50%;
+    float: right;
+    margin-bottom: 5px;
+
+}
+/*main section4 end*/
+
+/*main section5 start*/
+
+.award{
+    float: left;
+    width: 30%;
+
+}
+.detail-list{
+    width: 70%;
+    float: right;
+    margin-bottom: 5px;
+}
+/*main section5 start*/
+
+/*main section6 start*/
+.refer-div1{
+    width: 30%;
+    float: left;
+
+}
+.refer-div2{
+    width: 70%;
+    float: right;
+    margin-bottom: 5px;
+}
+.refer-div2 .div-r1{
+    width: 50%;
+    float: right;
+}
+.refer-div2 .div-r2{
+    width: 50%;
+    float: left;
+}
+
+/*main section6 end*/
+
+/*footer section start*/
+.footer{
+    width: 98%;
+    background-color: rgb(15, 15, 15);
+    margin: 0 auto;
+ 
+    
+}
+.inner-footer{
+    display: flex;
+   
+}
+.inner-footer ul {
+ margin: 0 auto;
+ display: flex;
+
+
+}
+
+.inner-footer ul li{
+    list-style: none;
+    float: inline-start;
+    padding: 10px 25px;
+}
+
+.inner-footer ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.outer-footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+
+  
+ 
+
+
+
+}
+.inner-footer ul li a:hover{
+    color: tomato;
+}
+/*footer section end*/
